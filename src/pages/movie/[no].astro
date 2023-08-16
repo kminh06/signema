@@ -5,11 +5,9 @@ import '../../globals.css'
 import data from '../../movies.json'
 import Movie from '../../components/Movie'
 
-const movies = data.movies
-
 export function getStaticPaths() {
   let params: {}[] = []
-  for (let i = 0; i < movies.length; i++) {
+  for (let i = 0; i < data.movies.length; i++) {
     params.push({
       params: {
         no: i.toString(),
@@ -39,7 +37,7 @@ const { no } = Astro.params
         no ? (
           <Header
             user={null}
-            movie={`${movies[no].title} (${movies[no].year})`}
+            movie={`${data.movies[no].title} (${data.movies[no].year})`}
             no={no}
           />
         ) : (
@@ -47,7 +45,7 @@ const { no } = Astro.params
         )
       }
       <main class='p-4 sm:p-8 w-full max-w-7xl mx-auto flex-grow'>
-        {no ? <Movie id={movies[no].id} /> : <div />}
+        {no ? <Movie id={data.movies[no].id} /> : <div />}
       </main>
       <Footer />
     </div>
