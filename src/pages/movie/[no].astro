@@ -1,0 +1,55 @@
+---
+import Footer from '../../components/Footer'
+import Header from '../../components/Header'
+import '../../globals.css'
+import data from '../../movies.json'
+import Movie from '../../components/Movie'
+
+const movies = data.movies
+
+export function getStaticPaths() {
+  let params: {}[] = []
+  for (let i = 0; i < movies.length; i++) {
+    params.push({
+      params: {
+        no: i.toString(),
+      },
+    })
+  }
+  return [params]
+}
+
+export const prerender = true
+
+const { no } = Astro.params
+---
+
+<html lang='en'>
+  <head>
+    <meta charset='utf-8' />
+    <link rel='icon' type='image/svg+xml' href='/favicon.webp' />
+    <meta name='viewport' content='width=device-width' />
+    <meta name='generator' content={Astro.generator} />
+    <title>Signema</title>
+    <style></style>
+  </head>
+  <body class='bg-zinc-900 text-white'>
+    <div class='flex flex-col min-h-screen'>
+      {
+        no ? (
+          <Header
+            user={null}
+            movie={`${movies[no].title} (${movies[no].year})`}
+            no={no}
+          />
+        ) : (
+          <div />
+        )
+      }
+      <main class='p-4 sm:p-8 w-full max-w-7xl mx-auto flex-grow'>
+        {no ? <Movie id={movies[no].id} /> : <div />}
+      </main>
+      <Footer />
+    </div>
+  </body>
+</html>

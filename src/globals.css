@@ -1,0 +1,39 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  color-scheme: dark;
+}
+
+.cl-internal-b3fm6y {
+  @apply invisible;
+}
+
+.cl-internal-fu73ob {
+  @apply focus:ring-0;
+}
+
+@font-face {
+  font-family: 'Inter var';
+  src: url('/fonts/Inter.var.woff2') format('woff2');
+}
+
+#section-container::-webkit-scrollbar {
+  height: 8px;
+}
+
+/* Track */
+#section-container::-webkit-scrollbar-track {
+  @apply invisible;
+}
+
+/* Handle */
+#section-container::-webkit-scrollbar-thumb {
+  @apply rounded bg-zinc-800;
+}
+
+/* Handle on hover */
+#section-container::-webkit-scrollbar-thumb:hover {
+  @apply bg-zinc-700;
+}
