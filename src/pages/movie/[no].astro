@@ -17,9 +17,9 @@ export function getStaticPaths() {
   return [params]
 }
 
-export const prerender = true
-
 const { no } = Astro.params
+
+export const prerender = true
 ---
 
 <html lang='en'>
