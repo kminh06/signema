@@ -44,6 +44,8 @@ const { no } = Astro.params
             user={null}
             movie={`${data.movies[no].title} (${data.movies[no].year})`}
             no={no}
+            selected={null}
+            navBar={false}
           />
         ) : (
           <div />
