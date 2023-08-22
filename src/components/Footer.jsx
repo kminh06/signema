@@ -8,9 +8,7 @@ export default function Footer() {
         'h-20 sm:h-28 border-t border-zinc-700 flex flex-row justify-center items-center'
       }
     >
-      <span className='text-zinc-300'>
-        &copy; {currentYear} Code Works Company
-      </span>
+      <span className='text-zinc-300'>&copy; {currentYear} Khac Minh Dau</span>
     </div>
   )
 }
