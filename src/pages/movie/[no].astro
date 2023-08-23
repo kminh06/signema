@@ -30,7 +30,9 @@ const { no } = Astro.params
       name='description'
       content='Explore the enigmatic world of Sigma males through captivating movies on our dedicated website. Dive into the intriguing lives of these independent, introspective individuals as they navigate unique journeys. Discover thought-provoking stories that celebrate the quiet strength and complex personalities of Sigma males in a collection of films that challenge conventions and redefine heroism.'
     />
-    <title>Signema</title>
+    <title>
+      {no ? `${data.movies[no].title} (${data.movies[no].year})` : ''} | Signema
+    </title>
     <script
       async
       src='https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6145213958807273'
