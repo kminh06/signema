@@ -13,6 +13,11 @@ const quote = {
   author: data.author,
 }
 
+const ip = await fetch('https://api64.ipify.org?format=json');
+const ipAdress = await ip.json()
+
+console.log(ipAdress.ip)
+
 export const prerender = false
 
 ---
@@ -35,6 +40,7 @@ export const prerender = false
 				{quote ? <Quote quote={quote} /> : <></>}
         <NewReleases />
 				<MoviesList />
+        <p class='text-center text-zinc-300 py-8'>BTW, your IP address is <span class='text-red-600'>{ipAdress.ip}</span></p>
 			</main>
 			<Footer />
 		</div>
