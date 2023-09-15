@@ -1,7 +1,7 @@
 export default function Thumbnail(props) {
   return (
     <a
-      href={`/movie/${props.no}`}
+      href={props.href}
       className='w-fit block transition-all ease-in-out hover:opacity-80 relative'
     >
       <img

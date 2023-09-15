@@ -3,11 +3,11 @@ import Footer from '../../components/Footer'
 import Header from '../../components/Header'
 import '../../globals.css'
 import data from '../../database.json'
-import Movie from '../../components/Movie'
+import Show from '../../components/Show'
 
 export function getStaticPaths() {
   let params: {}[] = []
-  for (let i = 0; i < data.movies.length; i++) {
+  for (let i = 0; i < data.shows.length; i++) {
     params.push({
       params: {
         no: i.toString(),
@@ -31,7 +31,7 @@ const { no } = Astro.params
       content='Explore the enigmatic world of Sigma males through captivating movies on our dedicated website. Dive into the intriguing lives of these independent, introspective individuals as they navigate unique journeys. Discover thought-provoking stories that celebrate the quiet strength and complex personalities of Sigma males in a collection of films that challenge conventions and redefine heroism.'
     />
     <title>
-      {no ? `${data.movies[no].title} (${data.movies[no].year})` : ''} | Signema
+      {no ? `${data.shows[no].title} (${data.shows[no].year})` : ''} | Signema
     </title>
     <script
       async
@@ -43,8 +43,8 @@ const { no } = Astro.params
       {
         no ? (
           <Header
-            movie={data.movies[no].title}
-            year={data.movies[no].year}
+            year={data.shows[no].year}
+            movie={data.shows[no].title}
             no={no}
             selected={null}
             navBar={false}
@@ -54,10 +54,18 @@ const { no } = Astro.params
         )
       }
       <main class='p-4 sm:p-8 w-full max-w-7xl mx-auto flex-grow'>
-        <h1 class='text-2xl sm:text-4xl font-extrabold mb-4 sm:mb-8'>
-          {no && data.movies[no].title}
-        </h1>
-        {no ? <Movie id={data.movies[no].id} /> : <div />}
+        {
+          no ? (
+            <Show
+              client:load
+              id={data.shows[no].id}
+              seasonsCount={data.shows[no].seasons}
+              episodes={data.shows[no].episodes.split(', ')}
+            />
+          ) : (
+            <div />
+          )
+        }
       </main>
       <Footer />
     </div>

@@ -1,7 +1,6 @@
 import React, { useEffect, useRef } from 'react'
-import { getInfoByID } from 'easyimdbscraper'
 
-export default function Movie({ id }) {
+export default function ShowPlayer({ id, episode, season }) {
   const iframeRef = useRef(null)
 
   useEffect(() => {
@@ -28,16 +27,13 @@ export default function Movie({ id }) {
     }
   }, [])
 
-  getInfoByID('tt2442560').then((info) => {
-    console.log(info)
-  })
-
   return (
     <div className='pt-[56.25%] w-full relative'>
       <iframe
         ref={iframeRef}
         className='absolute top-0 left-0 w-full h-full shadow-2xl shadow-zinc-600 overflow-hidden'
-        src={`https://multiembed.mov/directstream.php?video_id=${id}`}
+        // src={`https://multiembed.mov/directstream.php?video_id=${id}`}
+        src={`https://multiembed.mov/directstream.php?video_id=${id}&s=${season}&e=${episode}`}
         allowFullScreen={true}
       ></iframe>
     </div>

@@ -1,10 +1,10 @@
 import React from 'react'
-import data from '../movies.json'
+import data from '../database.json'
 import Thumbnail from './Thumbnail'
 
 export default function MoviesList() {
   return (
-    <div className='pt-4'>
+    <div className='pt-4 mb-8'>
       <h2 className='text-2xl font-semibold ml-4 sm:ml-8'>Our Collection</h2>
       <div className='overflow-x-auto mx-4' id='section-container'>
         <div className='flex flex-row gap-4 sm:gap-6 flex-wrap justify-center mt-4 w-max overflow-x-auto pb-2'>
@@ -14,8 +14,7 @@ export default function MoviesList() {
                 <Thumbnail
                   movie={movie}
                   key={data.movies.indexOf(movie)}
-                  no={data.movies.indexOf(movie)}
-                  starred={false}
+                  href={`/movie/${data.movies.indexOf(movie)}`}
                 />
               )
             }

@@ -61,7 +61,7 @@
       "year": "1999",
       "id": "tt0137523",
       "new": "FALSE",
-      "thumbnail": "https://akns-images.eonline.com/eol_images/Entire_Site/2019914/rs_685x1024-191014113838-634-fight-club-poster.cl.101419.jpg?fit=around%7C685:1024&output-quality=90&crop=685:1024;center,top"
+      "thumbnail": "https://i.ebayimg.com/images/g/vc4AAOSwzvpa8PPd/s-l1200.webp"
     },
     {
       "title": "Scarface",
@@ -132,6 +132,35 @@
       "id": "tt0468569",
       "new": "TRUE",
       "thumbnail": "https://darkroom.bbfc.co.uk/751/https://m.media-amazon.com/images/M/MV5BMTMxNTMwODM0NF5BMl5BanBnXkFtZTcwODAyMTk2Mw@@._V1_.jpg:84b982354be2d52d8836329b823768b5"
+    }
+  ],
+  "shows": [
+    {
+      "title": "Peaky Blinders",
+      "year": "2013-2022",
+      "id": "tt2442560",
+      "seasons": "6",
+      "episodes": "6, 6, 6, 6, 6, 6",
+      "new": "FALSE",
+      "thumbnail": "https://cdnb.artstation.com/p/assets/images/images/046/680/003/large/yas-koss-d6ad21138001053-6215214974718.jpg?1645690783"
+    },
+    {
+      "title": "Breaking Bad",
+      "year": "2008-2013",
+      "id": "tt0903747",
+      "seasons": "5",
+      "episodes": "7, 13, 13, 13, 16",
+      "new": "FALSE",
+      "thumbnail": "https://www.bestmovieposters.co.uk/wp-content/uploads/2019/01/RW4Eh9IR.jpeg"
+    },
+    {
+      "title": "The Sopranos",
+      "year": "1999–2007",
+      "id": "tt0141842",
+      "seasons": "6",
+      "episodes": "13, 13, 13, 13, 13, 21",
+      "new": "FALSE",
+      "thumbnail": "https://flxt.tmsimg.com/assets/p184487_b_v8_ax.jpg"
     }
   ]
 }
