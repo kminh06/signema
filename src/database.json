@@ -99,17 +99,24 @@
       "thumbnail": "https://m.media-amazon.com/images/M/MV5BMDI5ZWJhOWItYTlhOC00YWNhLTlkNzctNDU5YTI1M2E1MWZhXkEyXkFqcGdeQXVyNTIzOTk5ODM@._V1_.jpg?width=768&mxf-ref=https://bbfc.co.uk"
     },
     {
+      "title": "The Dark Knight",
+      "year": "2008",
+      "id": "tt0468569",
+      "new": "FALSE",
+      "thumbnail": "https://darkroom.bbfc.co.uk/751/https://m.media-amazon.com/images/M/MV5BMTMxNTMwODM0NF5BMl5BanBnXkFtZTcwODAyMTk2Mw@@._V1_.jpg:84b982354be2d52d8836329b823768b5"
+    },
+    {
       "title": "Goodfellas",
       "year": "1990",
       "id": "tt0099685",
-      "new": "TRUE",
+      "new": "FALSE",
       "thumbnail": "https://www.themoviedb.org/t/p/w500/aKuFiU82s5ISJpGZp7YkIr3kCUd.jpg"
     },
     {
       "title": "Drive",
       "year": "2011",
       "id": "tt0780504",
-      "new": "TRUE",
+      "new": "FALSE",
       "thumbnail": "https://www.sonypictures.com/sites/default/files/styles/max_560x840/public/chameleon/title-movie/252520_DRIVE%20%282011%29_1400x2100_English.jpg?itok=5vdfqXIU"
     },
     {
@@ -127,11 +134,25 @@
       "thumbnail": "https://www.themoviedb.org/t/p/w500/ekstpH614fwDX8DUln1a2Opz0N8.jpg"
     },
     {
-      "title": "The Dark Knight",
-      "year": "2008",
-      "id": "tt0468569",
+      "title": "Jack Reacher",
+      "year": "2012",
+      "id": "tt0790724",
       "new": "TRUE",
-      "thumbnail": "https://darkroom.bbfc.co.uk/751/https://m.media-amazon.com/images/M/MV5BMTMxNTMwODM0NF5BMl5BanBnXkFtZTcwODAyMTk2Mw@@._V1_.jpg:84b982354be2d52d8836329b823768b5"
+      "thumbnail": "https://m.media-amazon.com/images/I/51Mxcvt7iOL._AC_UF894,1000_QL80_.jpg"
+    },
+    {
+      "title": "Jack Reacher 2",
+      "year": "2016",
+      "id": "tt3393786",
+      "new": "TRUE",
+      "thumbnail": "https://www.tnp.sg/sites/default/files/styles/image_embed/public/articles/2016/10/05/NP_20161005_JJPOSTER05_1402410.jpg?itok=b5E-bvbT"
+    },
+    {
+      "title": "Taken 2",
+      "year": "2014",
+      "id": "tt1397280",
+      "new": "TRUE",
+      "thumbnail": "https://www.impdb.org/images/thumb/4/43/Taken2_poster.jpg/350px-Taken2_poster.jpg"
     }
   ],
   "shows": [

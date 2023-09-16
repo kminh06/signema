@@ -1,0 +1,62 @@
+---
+import Footer from '../../components/Footer'
+import Header from '../../components/Header'
+import '../../globals.css'
+import Movie from '../../components/Movie'
+
+export const prerender = false
+
+const { id } = Astro.params
+
+const response = await fetch(
+  `http://www.omdbapi.com/?apikey=${
+    import.meta.env.PUBLIC_OMDB_API_KEY
+  }&i=${id}`
+)
+const movie = await response.json()
+---
+
+<html lang='en'>
+  <head>
+    <meta charset='utf-8' />
+    <link rel='icon' type='image/svg+xml' href='/favicon.webp' />
+    <meta name='viewport' content='width=device-width' />
+    <meta name='generator' content={Astro.generator} />
+    <meta
+      name='description'
+      content='Explore the enigmatic world of Sigma males through captivating movies on our dedicated website. Dive into the intriguing lives of these independent, introspective individuals as they navigate unique journeys. Discover thought-provoking stories that celebrate the quiet strength and complex personalities of Sigma males in a collection of films that challenge conventions and redefine heroism.'
+    />
+    <title>
+      {`${movie.Title} (${movie.Year})`} | Signema
+    </title>
+    <script
+      async
+      src='https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6145213958807273'
+      crossorigin='anonymous'></script>
+  </head>
+  <body class='bg-zinc-900 text-zinc-100'>
+    <div class='flex flex-col min-h-screen'>
+      {
+        (
+          <Header
+            movie={movie.Title}
+            year={movie.Year}
+            no={null}
+            selected={null}
+            navBar={false}
+          />
+        )
+      }
+      <main class='p-4 sm:p-8 w-full max-w-7xl mx-auto flex-grow'>
+        <div class='mb-8'>
+          <h1 class='text-2xl sm:text-4xl font-extrabold mb-2'>
+            {movie.Title}
+          </h1>
+          <p class='text-zinc-400'>{movie.Plot}</p>
+        </div>
+        <Movie id={movie.imdbID} />
+      </main>
+      <Footer />
+    </div>
+  </body>
+</html>

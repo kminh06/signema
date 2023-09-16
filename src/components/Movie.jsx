@@ -1,5 +1,4 @@
 import React, { useEffect, useRef } from 'react'
-import { getInfoByID } from 'easyimdbscraper'
 
 export default function Movie({ id }) {
   const iframeRef = useRef(null)
@@ -27,10 +26,6 @@ export default function Movie({ id }) {
       }
     }
   }, [])
-
-  getInfoByID('tt2442560').then((info) => {
-    console.log(info)
-  })
 
   return (
     <div className='pt-[56.25%] w-full relative'>

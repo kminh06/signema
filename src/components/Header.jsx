@@ -22,7 +22,7 @@ export default function Header({ movie, no, selected, navBar, year }) {
               <span className='mx-4'>/</span>
               <a className='text-zinc-100 font-medium' href={`/movie/${no}`}>
                 <span>{movie}</span>
-                <span className='invisible sm:visible'> ({year})</span>
+                <span className='hidden sm:inline'> ({year})</span>
               </a>
             </span>
           ) : (

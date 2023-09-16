@@ -4,6 +4,10 @@ export default function NavBar(props) {
   const navs = [
     {
       route: '/',
+      label: 'Home',
+    },
+    {
+      route: '/movies',
       label: 'Movies',
     },
     {
