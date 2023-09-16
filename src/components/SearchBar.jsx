@@ -10,7 +10,7 @@ export default function SearchBar() {
     e.preventDefault()
     setSearching(true)
     const response = await fetch(
-      `http://www.omdbapi.com/?apikey=${
+      `https://www.omdbapi.com/?apikey=${
         import.meta.env.PUBLIC_OMDB_API_KEY
       }&t=${search}`
     )
