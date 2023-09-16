@@ -19,7 +19,7 @@ export default function SearchResult({ movie }) {
             </div>
           </a>
         ) : (
-          <div className='px-4 flex flex-row items-center transition-all hover:bg-zinc-800 hover:cursor-pointer w-full py-2 gap-4 text-zinc-400'>
+          <div className='px-4 flex flex-row items-center w-full py-2 gap-4 text-zinc-400'>
             <p>No results found.</p>
           </div>
         )}
