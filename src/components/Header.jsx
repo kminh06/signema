@@ -20,10 +20,10 @@ export default function Header({ movie, no, selected, navBar, year }) {
           {movie ? (
             <span className='text-zinc-500 text-base sm:text-lg'>
               <span className='mx-4'>/</span>
-              <div className='text-zinc-100 font-medium'>
+              <span className='text-zinc-100 font-medium'>
                 <span>{movie}</span>
                 <span className='hidden sm:inline'> ({year})</span>
-              </div>
+              </span>
             </span>
           ) : (
             <></>
