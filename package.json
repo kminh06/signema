@@ -16,6 +16,7 @@
     "@types/react": "^18.2.20",
     "@types/react-dom": "^18.2.7",
     "astro": "^2.10.15",
+    "astro-robots-txt": "^1.0.0",
     "easyimdbscraper": "^1.0.3",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
