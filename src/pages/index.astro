@@ -40,7 +40,7 @@ export const prerender = false
     <div class='flex flex-col min-h-screen'>
 			<Header movie={null} year={null} no={null} selected={0} navBar={true} />
 			<main class='flex-grow'>
-				<!-- {quote ? <Quote quote={quote} /> : <></>} -->
+				{quote ? <Quote quote={quote} /> : <></>}
         <SearchBar client:load />
         <NewReleases heading={'Movies'}>
           <a href="/movies" class="flex flex-col items-center text-zinc-400 transition-all hover:text-zinc-100 hover:cursor-pointer">
