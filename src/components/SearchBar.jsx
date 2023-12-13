@@ -40,7 +40,7 @@ export default function SearchBar() {
         <input
           className='w-full outline-none bg-transparent py-4 sm:pr-20'
           type='text'
-          placeholder='Watch any movie or show'
+          placeholder='Watch any movie for free (shows coming soon)'
           value={search}
           onChange={(e) => {
             setSearch(e.target.value)
