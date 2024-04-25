@@ -1,158 +1,172 @@
-﻿{
+{
   "movies": [
     {
       "title": "American Psycho",
-      "year": "2000",
+      "year": 2000,
       "id": "tt0144084",
-      "new": "FALSE",
+      "new": false,
       "thumbnail": "https://darkroom.bbfc.co.uk/751/https://m.media-amazon.com/images/M/MV5BZTM2ZGJmNjQtN2UyOS00NjcxLWFjMDktMDE2NzMyNTZlZTBiXkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_.jpg:5092f76d629b26835106e67ce5e6f2bc"
     },
     {
       "title": "Collateral",
-      "year": "2004",
+      "year": 2004,
       "id": "tt0369339",
-      "new": "FALSE",
+      "new": false,
       "thumbnail": "https://m.media-amazon.com/images/M/MV5BMjE3NjM5OTMxMV5BMl5BanBnXkFtZTcwOTIzMTQyMw@@._V1_FMjpg_UX1000_.jpg"
     },
     {
       "title": "Taken",
-      "year": "2008",
+      "year": 2008,
       "id": "tt0936501",
-      "new": "FALSE",
+      "new": false,
       "thumbnail": "https://darkroom.bbfc.co.uk/751/https://m.media-amazon.com/images/M/MV5BMTM4NzQ0OTYyOF5BMl5BanBnXkFtZTcwMDkyNjQyMg@@._V1_.jpg:84fbd47d01414775f7633ed106f352ef"
     },
     {
       "title": "The Godfather",
-      "year": "1972",
+      "year": 1972,
       "id": "tt0068646",
-      "new": "FALSE",
+      "new": false,
       "thumbnail": "https://m.media-amazon.com/images/M/MV5BM2MyNjYxNmUtYTAwNi00MTYxLWJmNWYtYzZlODY3ZTk3OTFlXkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_.jpg?width=768&mxf-ref=https://bbfc.co.uk"
     },
     {
       "title": "The Godfather Part 2",
-      "year": "1974",
+      "year": 1974,
       "id": "tt0071562",
-      "new": "FALSE",
+      "new": false,
       "thumbnail": "https://m.media-amazon.com/images/M/MV5BMWMwMGQzZTItY2JlNC00OWZiLWIyMDctNDk2ZDQ2YjRjMWQ0XkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_.jpg"
     },
     {
       "title": "The Dark Knight Rises",
-      "year": "2012",
+      "year": 2012,
       "id": "tt1345836",
-      "new": "FALSE",
+      "new": false,
       "thumbnail": "https://darkroom.bbfc.co.uk/751/https://m.media-amazon.com/images/M/MV5BMTk4ODQzNDY3Ml5BMl5BanBnXkFtZTcwODA0NTM4Nw@@._V1_.jpg:0090068366e76e8b993f64bb175ddaa2"
     },
     {
       "title": "The Matrix",
-      "year": "1999",
+      "year": 1999,
       "id": "tt0133093",
-      "new": "FALSE",
+      "new": false,
       "thumbnail": "https://darkroom.bbfc.co.uk/751/https://m.media-amazon.com/images/M/MV5BNzQzOTk3OTAtNDQ0Zi00ZTVkLWI0MTEtMDllZjNkYzNjNTc4L2ltYWdlXkEyXkFqcGdeQXVyNjU0OTQ0OTY@._V1_.jpg:a6a11118ab86dee974e9024b5dea8b97"
     },
     {
       "title": "John Wick",
-      "year": "2014",
+      "year": 2014,
       "id": "tt2911666",
-      "new": "FALSE",
+      "new": false,
       "thumbnail": "https://upload.wikimedia.org/wikipedia/en/9/98/John_Wick_TeaserPoster.jpg"
     },
     {
       "title": "Fight Club",
-      "year": "1999",
+      "year": 1999,
       "id": "tt0137523",
-      "new": "FALSE",
+      "new": false,
       "thumbnail": "https://i.ebayimg.com/images/g/vc4AAOSwzvpa8PPd/s-l1200.webp"
     },
     {
       "title": "Scarface",
-      "year": "1983",
+      "year": 1983,
       "id": "tt0086250",
-      "new": "FALSE",
+      "new": false,
       "thumbnail": "https://m.media-amazon.com/images/M/MV5BNjdjNGQ4NDEtNTEwYS00MTgxLTliYzQtYzE2ZDRiZjFhZmNlXkEyXkFqcGdeQXVyNjU0OTQ0OTY@._V1_.jpg"
     },
     {
       "title": "Shooter",
-      "year": "2007",
+      "year": 2007,
       "id": "tt0822854",
-      "new": "FALSE",
+      "new": false,
       "thumbnail": "https://m.media-amazon.com/images/M/MV5BMGRjMzY0OGItNDc4YS00OGNlLWI3MGYtZjRkNjdiNWUyNDY4XkEyXkFqcGdeQXVyNTA4NzY1MzY@._V1_FMjpg_UX1000_.jpg"
     },
     {
       "title": "Iron Man",
-      "year": "2008",
+      "year": 2008,
       "id": "tt0371746",
-      "new": "FALSE",
+      "new": false,
       "thumbnail": "https://www.joblo.com/wp-content/uploads/2010/05/2008-iron_man-4-1.jpg"
     },
     {
       "title": "Iron Man 2",
-      "year": "2010",
+      "year": 2010,
       "id": "tt1228705",
-      "new": "FALSE",
+      "new": false,
       "thumbnail": "https://m.media-amazon.com/images/M/MV5BMTM0MDgwNjMyMl5BMl5BanBnXkFtZTcwNTg3NzAzMw@@._V1_.jpg?width=768&mxf-ref=https://bbfc.co.uk"
     },
     {
       "title": "Casino Royale",
-      "year": "2006",
+      "year": 2006,
       "id": "tt0381061",
-      "new": "FALSE",
+      "new": false,
       "thumbnail": "https://m.media-amazon.com/images/M/MV5BMDI5ZWJhOWItYTlhOC00YWNhLTlkNzctNDU5YTI1M2E1MWZhXkEyXkFqcGdeQXVyNTIzOTk5ODM@._V1_.jpg?width=768&mxf-ref=https://bbfc.co.uk"
     },
     {
       "title": "The Dark Knight",
-      "year": "2008",
+      "year": 2008,
       "id": "tt0468569",
-      "new": "FALSE",
+      "new": false,
       "thumbnail": "https://darkroom.bbfc.co.uk/751/https://m.media-amazon.com/images/M/MV5BMTMxNTMwODM0NF5BMl5BanBnXkFtZTcwODAyMTk2Mw@@._V1_.jpg:84b982354be2d52d8836329b823768b5"
     },
     {
       "title": "Goodfellas",
-      "year": "1990",
+      "year": 1990,
       "id": "tt0099685",
-      "new": "FALSE",
+      "new": false,
       "thumbnail": "https://www.themoviedb.org/t/p/w500/aKuFiU82s5ISJpGZp7YkIr3kCUd.jpg"
     },
     {
       "title": "Drive",
-      "year": "2011",
+      "year": 2011,
       "id": "tt0780504",
-      "new": "FALSE",
+      "new": false,
       "thumbnail": "https://www.sonypictures.com/sites/default/files/styles/max_560x840/public/chameleon/title-movie/252520_DRIVE%20%282011%29_1400x2100_English.jpg?itok=5vdfqXIU"
     },
     {
       "title": "The Wolf of Wall Street",
-      "year": "2013",
+      "year": 2013,
       "id": "tt0993846",
-      "new": "TRUE",
+      "new": false,
       "thumbnail": "https://m.media-amazon.com/images/M/MV5BMjIxMjgxNTk0MF5BMl5BanBnXkFtZTgwNjIyOTg2MDE@._V1_UY1200_CR90,0,630,1200_AL_.jpg"
     },
     {
       "title": "Taxi Driver",
-      "year": "1976",
+      "year": 1976,
       "id": "tt0075314",
-      "new": "TRUE",
+      "new": false,
       "thumbnail": "https://www.themoviedb.org/t/p/w500/ekstpH614fwDX8DUln1a2Opz0N8.jpg"
     },
     {
-      "title": "Jack Reacher",
-      "year": "2012",
+      "title": "Jack Reacher ",
+      "year": 2012,
       "id": "tt0790724",
-      "new": "TRUE",
+      "new": false,
       "thumbnail": "https://m.media-amazon.com/images/I/51Mxcvt7iOL._AC_UF894,1000_QL80_.jpg"
     },
     {
       "title": "Jack Reacher 2",
-      "year": "2016",
+      "year": 2016,
       "id": "tt3393786",
-      "new": "TRUE",
+      "new": false,
       "thumbnail": "https://www.tnp.sg/sites/default/files/styles/image_embed/public/articles/2016/10/05/NP_20161005_JJPOSTER05_1402410.jpg?itok=b5E-bvbT"
     },
     {
       "title": "Taken 2",
-      "year": "2014",
+      "year": 2014,
       "id": "tt1397280",
-      "new": "TRUE",
+      "new": false,
       "thumbnail": "https://www.impdb.org/images/thumb/4/43/Taken2_poster.jpg/350px-Taken2_poster.jpg"
+    },
+    {
+      "title": "No Country for Old Men",
+      "year": 2007,
+      "id": "tt0477348",
+      "new": true,
+      "thumbnail": "https://upload.wikimedia.org/wikipedia/vi/8/8b/No_Country_for_Old_Men_poster.jpg"
+    },
+    {
+      "title": "Enemy at the Gates",
+      "year": 2001,
+      "id": "tt0215750",
+      "new": true,
+      "thumbnail": "https://m.media-amazon.com/images/M/MV5BYWFlY2E3ODQtZWNiNi00ZGU4LTkzNWEtZTQ2ZTViMWRhYjIzL2ltYWdlXkEyXkFqcGdeQXVyNTAyODkwOQ@@._V1_.jpg"
     }
   ],
   "shows": [
@@ -160,27 +174,27 @@
       "title": "Peaky Blinders",
       "year": "2013-2022",
       "id": "tt2442560",
-      "seasons": "6",
+      "seasons": 6,
       "episodes": "6, 6, 6, 6, 6, 6",
-      "new": "FALSE",
+      "new": false,
       "thumbnail": "https://cdnb.artstation.com/p/assets/images/images/046/680/003/large/yas-koss-d6ad21138001053-6215214974718.jpg?1645690783"
     },
     {
       "title": "Breaking Bad",
       "year": "2008-2013",
       "id": "tt0903747",
-      "seasons": "5",
+      "seasons": 5,
       "episodes": "7, 13, 13, 13, 16",
-      "new": "FALSE",
+      "new": false,
       "thumbnail": "https://www.bestmovieposters.co.uk/wp-content/uploads/2019/01/RW4Eh9IR.jpeg"
     },
     {
       "title": "The Sopranos",
       "year": "1999–2007",
       "id": "tt0141842",
-      "seasons": "6",
+      "seasons": 6,
       "episodes": "13, 13, 13, 13, 13, 21",
-      "new": "FALSE",
+      "new": false,
       "thumbnail": "https://flxt.tmsimg.com/assets/p184487_b_v8_ax.jpg"
     }
   ]
