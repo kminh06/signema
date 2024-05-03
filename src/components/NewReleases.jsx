@@ -17,7 +17,7 @@ export default function NewReleases({ heading, children }) {
       <div className='overflow-x-auto mx-4 sm:mx-8' id='section-container'>
         <div className='flex flex-row gap-4 sm:gap-6 flex-wrap justify-center mt-4 w-max overflow-x-auto pb-2'>
           {data.movies.map((movie) => {
-            if (movie.new === 'TRUE') {
+            if (movie.new === true) {
               return (
                 <Thumbnail
                   movie={movie}

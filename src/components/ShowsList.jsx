@@ -17,7 +17,7 @@ export default function MoviesList({ heading, children }) {
       <div className='overflow-x-auto mx-4 sm:mx-8' id='section-container'>
         <div className='flex flex-row gap-4 sm:gap-6 flex-wrap justify-center mt-4 w-max overflow-x-auto pb-2'>
           {data.shows.map((show) => {
-            if (show.new === 'FALSE') {
+            if (show.new === false) {
               return (
                 <Thumbnail
                   movie={show}
