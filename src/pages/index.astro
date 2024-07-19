@@ -45,12 +45,9 @@ export const prerender = false
 			<main class='flex-grow'>
 				{quote ? <Quote quote={quote} /> : <></>}
         <SearchBar client:load />
-        <NewReleases heading={'New Releases'}>
-        </NewReleases>
-        <MoviesList heading={'Movies'}>
-        </MoviesList>
-        <ShowsList heading={'Shows'}>
-        </ShowsList>
+        <NewReleases heading={'New Releases'} />
+        <MoviesList heading={'Movies'} />
+        <ShowsList heading={'Shows'} />
 			</main>
 			<Footer />
 		</div>
