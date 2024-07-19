@@ -4,7 +4,7 @@
       "title": "American Psycho",
       "year": 2000,
       "id": "tt0144084",
-      "new": true,
+      "new": false,
       "thumbnail": "https://darkroom.bbfc.co.uk/751/https://m.media-amazon.com/images/M/MV5BZTM2ZGJmNjQtN2UyOS00NjcxLWFjMDktMDE2NzMyNTZlZTBiXkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_.jpg:5092f76d629b26835106e67ce5e6f2bc"
     },
     {
@@ -25,7 +25,7 @@
       "title": "The Godfather",
       "year": 1972,
       "id": "tt0068646",
-      "new": true,
+      "new": false,
       "thumbnail": "https://m.media-amazon.com/images/M/MV5BM2MyNjYxNmUtYTAwNi00MTYxLWJmNWYtYzZlODY3ZTk3OTFlXkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_.jpg?width=768&mxf-ref=https://bbfc.co.uk"
     },
     {
@@ -123,7 +123,7 @@
       "title": "The Wolf of Wall Street",
       "year": 2013,
       "id": "tt0993846",
-      "new": true,
+      "new": false,
       "thumbnail": "https://m.media-amazon.com/images/M/MV5BMjIxMjgxNTk0MF5BMl5BanBnXkFtZTgwNjIyOTg2MDE@._V1_UY1200_CR90,0,630,1200_AL_.jpg"
     },
     {

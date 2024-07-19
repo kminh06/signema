@@ -2,7 +2,7 @@ import React from 'react'
 import data from '../database.json'
 import Thumbnail from './Thumbnail'
 
-export default function MoviesList({ heading, children }) {
+export default function MoviesList({ heading }) {
   return (
     <div className='pt-4 mb-8'>
       <a
@@ -27,9 +27,9 @@ export default function MoviesList({ heading, children }) {
               )
             }
           })}
-          <div className='flex flex-col items-center justify-center'>
+          {/* <div className='flex flex-col items-center justify-center'>
             {children}
-          </div>
+          </div> */}
         </div>
       </div>
     </div>
