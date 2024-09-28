@@ -5,15 +5,15 @@ import Thumbnail from './Thumbnail'
 export default function NewReleases({ heading }) {
   return (
     <div className='pt-4 pb-6'>
-      <a
-        href={children && '/movies'}
+      <span
+        // href={children && '/movies'}
         className={
           'text-2xl font-bold ml-4 sm:ml-10 ' +
-          (children && 'hover:underline hover:cursor-pointer')
+          'hover:underline hover:cursor-pointer'
         }
       >
         {heading}
-      </a>
+      </span>
       <div className='overflow-x-auto mx-4 sm:mx-8' id='section-container'>
         <div className='flex flex-row gap-4 sm:gap-6 flex-wrap justify-center mt-4 w-max overflow-x-auto pb-2'>
           {data.movies.map((movie) => {
