@@ -2,15 +2,12 @@ import React from 'react'
 import data from '../database.json'
 import Thumbnail from './Thumbnail'
 
-export default function MoviesList({ heading }) {
+export default function MoviesList({ heading, children }) {
   return (
     <div className='pt-4 mb-8'>
       <a
         href={children && '/shows'}
-        className={
-          'text-2xl font-bold ml-4 sm:ml-10 ' +
-          (children && 'hover:underline hover:cursor-pointer')
-        }
+        className={'text-2xl font-bold ml-4 sm:ml-10 '}
       >
         {heading}
       </a>
@@ -27,9 +24,9 @@ export default function MoviesList({ heading }) {
               )
             }
           })}
-          {/* <div className='flex flex-col items-center justify-center'>
+          <div className='flex flex-col items-center justify-center'>
             {children}
-          </div> */}
+          </div>
         </div>
       </div>
     </div>

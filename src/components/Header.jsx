@@ -9,7 +9,7 @@ export default function Header({ movie, no, selected, navBar, year }) {
       }
     >
       <header className='flex flex-col w-full relative pt-4 sm:pt-8 mx-4 sm:mx-8 select-none justify-center h-fit'>
-        <span className={'mb-4 ' + (!navBar && 'sm:mb-8')}>
+        <span className={'mb-4 sm:mb-8'}>
           <a
             id='logo'
             className='font-bold bg-white text-black px-2 py-1 border-b-4 border-red-700 sm:text-lg'
@@ -29,7 +29,7 @@ export default function Header({ movie, no, selected, navBar, year }) {
             <></>
           )}
         </span>
-        {navBar ? <NavBar selected={selected} /> : <></>}
+        {/* {navBar ? <NavBar selected={selected} /> : <></>} */}
       </header>
     </div>
   )
