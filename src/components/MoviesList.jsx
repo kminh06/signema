@@ -14,7 +14,7 @@ export default function MoviesList({ heading, children }) {
                 <Thumbnail
                   movie={movie}
                   key={data.movies.indexOf(movie)}
-                  href={`/movie/${data.movies.indexOf(movie)}`}
+                  href={`/watch/${data.movies[index].id}`}
                 />
               )
             }
